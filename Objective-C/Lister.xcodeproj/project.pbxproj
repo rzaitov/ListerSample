@@ -44,7 +44,7 @@
 		169E922C18AD7EF100139723 /* AAPLListDocumentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169E922B18AD7EF100139723 /* AAPLListDocumentsViewController.m */; };
 		16A1A286193818EE00302EE4 /* AAPLCheckBoxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 16040D02190F32A5006D75CA /* AAPLCheckBoxCell.m */; };
 		16A1A287193819B900302EE4 /* AAPLTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169DAF1E192D1C1C007F738B /* AAPLTodayViewController.m */; };
-		16A1A2881938266C00302EE4 /* com.example.apple-samplecode.Lister.ListerToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 16EB5ECB1936D39400532A4B /* com.example.apple-samplecode.Lister.ListerToday.appex */; };
+		16A1A2881938266C00302EE4 /* com.your-company.Lister.ListerToday.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 16EB5ECB1936D39400532A4B /* com.your-company.Lister.ListerToday.appex */; };
 		16A1A28C193836F900302EE4 /* Today.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169DAF20192D1C1C007F738B /* Today.storyboard */; };
 		16ADF81A191AAC2E00CA9120 /* AAPLAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 16ADF818191AAC2E00CA9120 /* AAPLAppDelegate.h */; };
 		16ADF81B191AAC2E00CA9120 /* AAPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ADF819191AAC2E00CA9120 /* AAPLAppDelegate.m */; };
@@ -185,7 +185,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				16A1A2881938266C00302EE4 /* com.example.apple-samplecode.Lister.ListerToday.appex in Embed App Extensions */,
+				16A1A2881938266C00302EE4 /* com.your-company.Lister.ListerToday.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +288,7 @@
 		16E330C8191EDAC400698F8C /* AAPLTodayListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLTodayListManager.h; sourceTree = "<group>"; };
 		16E330C9191EDAC400698F8C /* AAPLTodayListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLTodayListManager.m; sourceTree = "<group>"; };
 		16E8EC9F18B436D500C98385 /* cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud@2x.png"; path = "Images/cloud@2x.png"; sourceTree = "<group>"; };
-		16EB5ECB1936D39400532A4B /* com.example.apple-samplecode.Lister.ListerToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "com.example.apple-samplecode.Lister.ListerToday.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EB5ECB1936D39400532A4B /* com.your-company.Lister.ListerToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "com.your-company.Lister.ListerToday.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EB5EDE1936D41C00532A4B /* com.your-company.Lister.ListerToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "com.your-company.Lister.ListerToday.entitlements"; sourceTree = "<group>"; };
 		3E185F6519104409007B95FB /* AAPLTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLTableRowView.h; sourceTree = "<group>"; };
 		3E185F6619104409007B95FB /* AAPLTableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLTableRowView.m; sourceTree = "<group>"; };
@@ -434,7 +434,7 @@
 				1632761E18AD468F00A97A9F /* ListerKit.framework */,
 				163A6CA01906ED4C008E1930 /* ListerOSX.app */,
 				3E745ECB190880F30090B20E /* ListerKitOSX.framework */,
-				16EB5ECB1936D39400532A4B /* com.example.apple-samplecode.Lister.ListerToday.appex */,
+				16EB5ECB1936D39400532A4B /* com.your-company.Lister.ListerToday.appex */,
 				1633C7311939337F00A9CC5E /* com.example.apple-samplecode.ListerOSX.ListerTodayOSX.appex */,
 			);
 			name = Products;
@@ -875,7 +875,7 @@
 			);
 			name = ListerToday;
 			productName = ListerToday;
-			productReference = 16EB5ECB1936D39400532A4B /* com.example.apple-samplecode.Lister.ListerToday.appex */;
+			productReference = 16EB5ECB1936D39400532A4B /* com.your-company.Lister.ListerToday.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		3E745ECA190880F30090B20E /* ListerKitOSX */ = {
@@ -1331,7 +1331,7 @@
 				INFOPLIST_FILE = "Lister/Lister-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "487C7730-AE86-42DB-8251-0340AF68F2B5";
 			};
 			name = Debug;
 		};
@@ -1352,7 +1352,7 @@
 				INFOPLIST_FILE = "Lister/Lister-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "487C7730-AE86-42DB-8251-0340AF68F2B5";
 			};
 			name = Release;
 		};
@@ -1463,7 +1463,7 @@
 				INFOPLIST_FILE = ListerToday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "com.example.apple-samplecode.Lister.$(TARGET_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "com.your-company.Lister.ListerToday";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
@@ -1480,7 +1480,7 @@
 				INFOPLIST_FILE = ListerToday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "com.example.apple-samplecode.Lister.$(TARGET_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "com.your-company.Lister.ListerToday";
 				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
