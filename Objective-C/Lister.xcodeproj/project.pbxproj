@@ -10,7 +10,7 @@
 		1608C4DC19398CE400CC1E53 /* AAPLNoItemsRowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608C4DA19398CE400CC1E53 /* AAPLNoItemsRowViewController.m */; };
 		1608C4DD19398CE400CC1E53 /* AAPLNoItemsRowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1608C4DB19398CE400CC1E53 /* AAPLNoItemsRowViewController.xib */; };
 		160D913E1937921E00373D47 /* Lister.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 16A3C1CF18B2C2530087ACED /* Lister.entitlements */; };
-		160D913F1937922F00373D47 /* com.example.apple-samplecode.Lister.ListerToday.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 16EB5EDE1936D41C00532A4B /* com.example.apple-samplecode.Lister.ListerToday.entitlements */; };
+		160D913F1937922F00373D47 /* com.your-company.Lister.ListerToday.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 16EB5EDE1936D41C00532A4B /* com.your-company.Lister.ListerToday.entitlements */; };
 		160D914419380CE500373D47 /* AAPLCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 16E1FA02191DD200006AF95B /* AAPLCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		160D914519380CE500373D47 /* AAPLCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E1FA03191DD200006AF95B /* AAPLCheckBox.m */; };
 		160D914619380D7F00373D47 /* AAPLCheckBoxLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE9DF2619310C510025B0B4 /* AAPLCheckBoxLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -289,7 +289,7 @@
 		16E330C9191EDAC400698F8C /* AAPLTodayListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLTodayListManager.m; sourceTree = "<group>"; };
 		16E8EC9F18B436D500C98385 /* cloud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud@2x.png"; path = "Images/cloud@2x.png"; sourceTree = "<group>"; };
 		16EB5ECB1936D39400532A4B /* com.example.apple-samplecode.Lister.ListerToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "com.example.apple-samplecode.Lister.ListerToday.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		16EB5EDE1936D41C00532A4B /* com.example.apple-samplecode.Lister.ListerToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "com.example.apple-samplecode.Lister.ListerToday.entitlements"; sourceTree = "<group>"; };
+		16EB5EDE1936D41C00532A4B /* com.your-company.Lister.ListerToday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "com.your-company.Lister.ListerToday.entitlements"; sourceTree = "<group>"; };
 		3E185F6519104409007B95FB /* AAPLTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLTableRowView.h; sourceTree = "<group>"; };
 		3E185F6619104409007B95FB /* AAPLTableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLTableRowView.m; sourceTree = "<group>"; };
 		3E2EA7391974FFD200C7B658 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -631,7 +631,7 @@
 		16EB5ECD1936D39400532A4B /* ListerToday */ = {
 			isa = PBXGroup;
 			children = (
-				16EB5EDE1936D41C00532A4B /* com.example.apple-samplecode.Lister.ListerToday.entitlements */,
+				16EB5EDE1936D41C00532A4B /* com.your-company.Lister.ListerToday.entitlements */,
 				169DAF1D192D1C1C007F738B /* AAPLTodayViewController.h */,
 				169DAF1E192D1C1C007F738B /* AAPLTodayViewController.m */,
 				16040CFD190F3259006D75CA /* Views */,
@@ -1016,7 +1016,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16A1A28C193836F900302EE4 /* Today.storyboard in Resources */,
-				160D913F1937922F00373D47 /* com.example.apple-samplecode.Lister.ListerToday.entitlements in Resources */,
+				160D913F1937922F00373D47 /* com.your-company.Lister.ListerToday.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1452,7 +1452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_ENTITLEMENTS = "ListerToday/com.example.apple-samplecode.Lister.ListerToday.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ListerToday/com.your-company.Lister.ListerToday.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1473,7 +1473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_ENTITLEMENTS = "ListerToday/com.example.apple-samplecode.Lister.ListerToday.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "ListerToday/com.your-company.Lister.ListerToday.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
