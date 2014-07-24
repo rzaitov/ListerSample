@@ -1464,7 +1464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "com.your-company.Lister.ListerToday";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "50309035-0B90-40A9-AF5B-8A6D5F0CF78E";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -1481,7 +1481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "com.your-company.Lister.ListerToday";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "50309035-0B90-40A9-AF5B-8A6D5F0CF78E";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
