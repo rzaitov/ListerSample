@@ -907,11 +907,15 @@
 				ORGANIZATIONNAME = "Apple Inc.";
 				TargetAttributes = {
 					163275F918AD468F00A97A9F = {
+						DevelopmentTeam = 7V723M9SQ5;
 						SystemCapabilities = {
 							com.apple.iCloud = {
 								enabled = 1;
 							};
 						};
+					};
+					1632761D18AD468F00A97A9F = {
+						DevelopmentTeam = 7V723M9SQ5;
 					};
 					1633C7301939337F00A9CC5E = {
 						CreatedOnToolsVersion = 6.0;
@@ -925,6 +929,7 @@
 					};
 					16EB5ECA1936D39400532A4B = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 7V723M9SQ5;
 						SystemCapabilities = {
 							com.apple.iCloud = {
 								enabled = 1;

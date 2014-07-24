@@ -9,7 +9,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.example.apple-samplecode.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.your-company.Lister</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -45,57 +45,57 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>CFBundleDocumentTypes</key>
-    <array>
-        <dict>
-            <key>LSHandlerRank</key>
-            <string>Owner</string>
-            <key>CFBundleTypeRole</key>
-            <string>Editor</string>
-            <key>CFBundleTypeIconFiles</key>
-            <array/>
-            <key>CFBundleTypeName</key>
-            <string>List Document</string>
-            <key>LSItemContentTypes</key>
-            <array>
-                <string>com.example.apple-samplecode.Lister</string>
-            </array>
-            <key>LSTypeIsPackage</key>
-            <false/>
-            <key>NSUbiquitousDocumentUserActivityType</key>
-            <string>com.example.apple-samplecode.Lister</string>
-        </dict>
-    </array>
-    <key>UTExportedTypeDeclarations</key>
-    <array>
-        <dict>
-            <key>UTTypeDescription</key>
-            <string>List Document</string>
-            <key>UTTypeIdentifier</key>
-            <string>com.example.apple-samplecode.Lister</string>
-            <key>UTTypeTagSpecification</key>
-            <dict>
-                <key>public.filename-extension</key>
-                <array>
-                    <string>list</string>
-                </array>
-            </dict>
-            <key>UTTypeConformsTo</key>
-            <array>
-                <string>public.data</string>
-            </array>
-        </dict>
-    </array>
-    <key>CFBundleURLTypes</key>
-    <array>
-        <dict>
-            <key>CFBundleURLName</key>
-            <string>com.example.apple-samplecode.Lister.ListerURLScheme</string>
-            <key>CFBundleURLSchemes</key>
-            <array>
-                <string>lister</string>
-            </array>
-        </dict>
-    </array>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleTypeIconFiles</key>
+			<array/>
+			<key>CFBundleTypeName</key>
+			<string>List Document</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.example.apple-samplecode.Lister</string>
+			</array>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSUbiquitousDocumentUserActivityType</key>
+			<string>com.example.apple-samplecode.Lister</string>
+		</dict>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeDescription</key>
+			<string>List Document</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.example.apple-samplecode.Lister</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>list</string>
+				</array>
+			</dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.example.apple-samplecode.Lister.ListerURLScheme</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>lister</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
